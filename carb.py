@@ -20,7 +20,7 @@ if response.status_code == 200:
     df.dropna(subset=['Retirement Date'], inplace=True)
     
     # Streamlit app title with an emoji
-    st.title("🌍 Overall VCM Activity Tracker")
+    st.title("🌍 Overall VCM Activity Tracker!")
     st.markdown("*The Activity Tracker analyzes the amount of trading activity happening on exchanges and over-the-counter markets. It offers insights into whether carbon credits are being traded more or less often compared to previous months. Users can choose to compare the data over the last 1, 2, 6, or 12 months.*")
 
     # Get user inputs using Streamlit's text input and selectbox
