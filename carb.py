@@ -5,7 +5,7 @@ import requests
 from io import StringIO  # Import StringIO from the io module
 
 # Define the raw GitHub file URL
-github_raw_url = "https://raw.githubusercontent.com/GreenMindAI/GreenMindAi/main/Retirements78.csv"
+github_raw_url = "https://github.com/John-Wambugu/GreenMindAi/blob/b1dc3a9fde05394368e9d9fcc3d3a3f982fba208/Retirements78.csv"
 
 # Fetch data from the GitHub URL
 response = requests.get(github_raw_url)
